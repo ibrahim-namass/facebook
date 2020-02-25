@@ -1,0 +1,230 @@
+body
+{
+    background-color: rgb(236, 236, 236);
+    height:100%;
+    margin: 0;
+}
+#Goku, #geta
+{
+    display: flex;
+}
+.tété
+{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+#geta
+{
+    color: white;
+    justify-content: space-between;
+    background-color: #3b5998 ;
+}
+#Goku
+{
+    margin-top: 0px;
+    height: 1000px;
+    background-color: rgb(236, 236, 236);
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 150px;
+}
+.goten
+{
+    font-family: helvetica;
+    margin-top: 100px;
+}
+.li
+{
+    font-family: helvetica;
+    font-size: 15px;
+    border: rgb(91, 100, 100) 1.3px solid;
+    border-radius: 3px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.lo, .image
+{
+    margin-top: 16px;
+}
+.image
+{
+    width: 50px;
+}
+.img
+{
+    position: relative;
+    top: 20px;
+    margin-right: 9px;
+}
+.lu, .sign
+{
+    margin-bottom: 15px;
+}
+.sign
+{
+    background-color: rgb(71, 117, 71);
+    color: white;
+    font-size: 15px;
+    border: 1px solid;
+    width: 140px;
+    height: 40px;
+}
+.creat
+{
+    border-top: 0.5px solid;
+}
+.gohan
+{
+    width: 700px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.poi
+{
+    margin-right: 60px;
+}
+.po
+{
+    margin-right: 15px;
+}
+.pio
+{
+    margin-left: 80px;
+}
+.for
+{
+    color: rgba(245, 240, 240, 0.726);
+    text-decoration: none;
+}
+.log
+{
+    border: #5d81cf solid 1px;
+    color: white;
+    background-color: #5d81cf;
+}
+h3
+{
+    color: rgb(91, 100, 100);
+font-family: arial,
+}
+h2, h1
+{
+font-family: Arial, Helvetica;
+}
+h1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ri
+{
+    color: rgb(91, 100, 100);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ten
+{
+    width: 400px;
+}
+.bas
+{
+font-size: 10px;
+}
+.ba
+{
+    width: 245px;
+}
+#month, #day, #year
+{
+    background-color: white;
+    
+}
+@media screen and (max-width: 1080px ){
+    #ball , body
+    {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        
+        
+    }
+    #Goku
+    {
+        margin-top: 0px;
+        
+        
+        display: block;
+    }
+    #geta, .goten
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .goten
+    {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    #ball
+    {
+        padding: 0;
+        margin: 0;
+        margin: auto;
+        width: 1200px;
+    }
+    .goten
+    {
+        padding: 0;
+        margin: 0;
+    }
+    #Goku
+    {
+
+        margin: 0;
+        margin: auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 780px)
+{
+    #ball
+    {
+        margin: 0;
+        margin: auto;
+        width: 780px;
+    }
+    #Goku
+    {
+        margin-right: auto;
+    }
+    #geta
+    {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    body{margin: 0; padding: 0; }
+    #ball
+    {
+        justify-content: center;
+        margin: auto;
+        width: 500px;
+    }
+
+    #geta
+    {
+        margin-right: 20px;
+    }
+    .img
+    {
+        position: relative;
+        top: 10px;
+    }
+}
